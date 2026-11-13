@@ -152,12 +152,10 @@ Zenmap's Topology feature was used to visualize the discovered hosts in the netw
 
 The topology view provided a graphical representation of the hosts discovered during the network scan.
 11. Results
-
-The practical demonstrated different network reconnaissance and discovery techniques.
-
+The practical demonstrated different network reconnaissance and discovery techniques
 Kali Linux commands were used to gather information about the target website, including web technologies, HTTP headers, domain registration details, DNS records, and WAF information.
-
 Zenmap was then used to discover active hosts on the network. The `/24` network scan identified five live hosts along with their corresponding MAC addresses.
+
 12. Conclusion
 
 This practical provided hands-on experience with Kali Linux reconnaissance tools and Zenmap network scanning.
