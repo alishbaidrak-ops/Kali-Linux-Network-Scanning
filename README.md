@@ -100,10 +100,8 @@ cmd
 ipconfig
 The IPv4 address used for the local network scan was:
 text
-192.168.100.9
 The network used for the scan was:
 text
-192.168.100.0/24
 6. Zenmap Host Scan
 
 Zenmap was used to perform host discovery using Nmap.
@@ -112,7 +110,7 @@ Single Host Scan
 
 The target host was scanned using a Ping Scan.
 bash
-nmap -sn 172.22.32.1
+nmap 
 
 Result:
 text
@@ -122,7 +120,7 @@ This confirmed that the scanned host was active.
  7. Local Network Scan
 The local `/24` network was scanned using:
 bash
-nmap -sn 192.168.100.0/24
+nmap 
 
 The scan covered 256 IP addresses.
 
@@ -131,22 +129,7 @@ text
 256 IP addresses (5 hosts up)
 
 Therefore, five live hosts were identified.
-8. Live Hosts
-| No. | IP Address |
-| 1 | 192.168.100.1 |
-| 2 | 192.168.100.3 |
-| 3 | 192.168.100.5 |
-| 4 | 192.168.100.7 |
-| 5 | 192.168.100.9 |
- 9. MAC Addresses of Live Hosts
-
-| No. | IP Address | MAC Address |
-| 1 | 192.168.100.1 | 94:04:9C:B4:53:7F |
-| 2 | 192.168.100.3 | 96:A2:5C:0B:56:04 |
-| 3 | 192.168.100.5 | 7E:95:51:82:8D:6F |
-| 4 | 192.168.100.7 | 18:5E:0B:4F:F3:7C |
-| 5 | 192.168.100.9 | 9C-2A-70-55-0D-8D |
- 10. Zenmap Topology
+zenmap Topology
 
 Zenmap's Topology feature was used to visualize the discovered hosts in the network.
 
